@@ -10,6 +10,8 @@ RTC_DS1307 rtc;
 #define NBR_ANODE_PINS 1
 #define NBR_DECADE_PINS 4
 
+// This pin mapping algorithm comes from the 5th post at
+// http://forum.arduino.cc/index.php?topic=10841.0
 int anodePins[NBR_ANODE_PINS] = {10};
 int bigDecadePins[NBR_DECADE_PINS] = {9,7,6,8}; //LSB first
 int smallDecadePins[NBR_DECADE_PINS] = {5,16,14,4}; //LSB first
@@ -78,6 +80,9 @@ void allOFF(){
      }
 }
 
+// I found this function online, but I have no idea
+// who posted it first, and where. I apologize and
+// I am grateful to the author.
 byte decToBcd(byte val)
 {
   return ( ((val/10)*16) + (val%10) );
