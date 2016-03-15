@@ -30,7 +30,7 @@ Adjust timings to suit your needs. Right now:
 - 500 milliseconds between each hh/mm increase when setting them
  
 
-**** RULES ****
+RULES
 Enjoy.
 Share back your code mods.
 Be careful with the high-voltage (can be lethal, you have been warned).
