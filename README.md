@@ -29,6 +29,7 @@ Adjust timings to suit your needs. Right now:
 - 3.3 seconds "off" time between cycles
 - 500 milliseconds between each hh/mm increase when setting them
  
+The biNixie Clock schematic diagram can be seen at http://ik1zyw.blogspot.it/2016/03/binixie-clock-schematic-diagram.html .
 
 RULES
 Enjoy.
